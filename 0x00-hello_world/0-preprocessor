@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -Werror -o c
+gcc -E $CFILE -o c
