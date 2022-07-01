@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main(void)
 {
-	puts("Size of an int :%.2f",sizeof(int));
-	puts("Size of char :",sizeof(char));
+	printf("Size of an int :%d byte(s)\n", (int) sizeof(int));
+	printf("Size of char :%d byte(s)\n",(int) sizeof(char));
 
 	return (0);
 }
